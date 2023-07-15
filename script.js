@@ -28,7 +28,7 @@ const generateResults = (searchValue, inputField) => {
         })
 }
 
-const debounce = (callback, delay = 5000) => {
+const debounce = (callback, delay = 1000) => {
     let timeOut
     // Reset arguments Callback arguments
     return (...args) => {
